@@ -1,0 +1,33 @@
+.EightBall {
+  margin: 30px;
+  background-color: white;
+}
+
+.EightBall-div {
+  display: flex;
+  justify-content: center;
+}
+
+
+.EightBall-ball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.EightBall-message {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.EightBall-resetbtn {
+  margin: 15px;
+  padding: 5px 10px;
+  background-color: darkgrey;
+  border-radius: 10px;
+}
